@@ -1,10 +1,10 @@
 const {findUniqueNumber} = require('./findUniqueNumber');
 
-describe('findUniqueNumber', function () {
-    test('should return unique value', function () {
-        const input = [1, 2, 1, 1, 1];
+describe('findUniqueNumber', () => {
+    it('should return unique value', () => {
+        const testData = [1, 2, 1, 1, 1];
         const expected = 2;
 
-        expect(findUniqueNumber(input)).toEqual(expected);
-    })
-})
+        expect(findUniqueNumber(testData)).toEqual(expected);
+    });
+});
