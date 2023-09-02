@@ -1,4 +1,4 @@
-const {parseNumbers} = require('./parseNumbers');
+const {parseNumbers} = require('../src/parseNumbers');
 
 describe('parseNumbers', function () {
     it('should return correct output',  () => {

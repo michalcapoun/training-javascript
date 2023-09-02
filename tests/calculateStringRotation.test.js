@@ -1,4 +1,4 @@
-const {calculateStringRotation} = require('./calculateStringRotation');
+const {calculateStringRotation} = require('../src/calculateStringRotation');
 
 const testData1 = ["coffee", "eecoff"];
 const testData2 = ["moose", "Moose"];

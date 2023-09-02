@@ -1,4 +1,4 @@
-const {findUniqueNumber} = require('./findUniqueNumber');
+const {findUniqueNumber} = require('../src/findUniqueNumber');
 
 describe('findUniqueNumber', () => {
     it('should return unique value', () => {

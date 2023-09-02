@@ -1,4 +1,4 @@
-const {stringArrayDuplicates} = require('./stringArrayDuplicates');
+const {stringArrayDuplicates} = require('../src/stringArrayDuplicates');
 
 describe('stringArrayDuplicates', () => {
     it('should return correct value', () => {

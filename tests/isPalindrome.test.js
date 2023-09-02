@@ -1,4 +1,4 @@
-const {isPalindrome} = require('./isPalindrome');
+const {isPalindrome} = require('../src/isPalindrome');
 
 describe('isPalindrome', () => {
     it('should return true', () => {

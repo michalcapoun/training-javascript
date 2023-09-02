@@ -1,4 +1,4 @@
-const {wheatFromChaff} = require('./wheatFromChaff');
+const {wheatFromChaff} = require('../src/wheatFromChaff');
 
 describe('wheatFromChaff', function () {
     it('Check medium length array', function () {

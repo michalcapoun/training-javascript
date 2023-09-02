@@ -1,4 +1,4 @@
-const {highestScoringWord} = require('./highestScoringWord');
+const {highestScoringWord} = require('../src/highestScoringWord');
 
 describe('highestScoringWord', () => {
     it('should return highest scoring word', () => {

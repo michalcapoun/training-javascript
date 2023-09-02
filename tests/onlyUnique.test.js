@@ -1,4 +1,4 @@
-const {onlyUnique} = require('./onlyUnique');
+const {onlyUnique} = require('../src/onlyUnique');
 
 describe('onlyUnique', () => {
     it('should remove duplicate numbers', () => {

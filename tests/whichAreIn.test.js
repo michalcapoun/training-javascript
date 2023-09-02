@@ -1,4 +1,4 @@
-const {whichAreIn} = require('./whichAreIn');
+const {whichAreIn} = require('../src/whichAreIn');
 
 describe('whichAreIn', function () {
     it('should return correct array', function () {

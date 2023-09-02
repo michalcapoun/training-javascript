@@ -1,4 +1,4 @@
-const {removeInvalidTriangles} = require('./removeInvalidTriangles.js');
+const {removeInvalidTriangles} = require('../src/removeInvalidTriangles.js');
 
 describe('removeInvalidTriangles', () => {
     it('should remove invalid triangles', () => {
