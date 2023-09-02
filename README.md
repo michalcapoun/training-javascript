@@ -1,4 +1,4 @@
-# JavaScript Training Project with Jest Testing
+# JavaScript Training with Jest Testing
 
 ## Overview
 
