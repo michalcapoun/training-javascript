@@ -12,11 +12,11 @@
 // [ 1, 2, 10, 3, 2, 7, 3, 2 ] => 26  (buy at 1,2 and sell them at 10. Then buy at 3,2 and sell them at 7)
 
 function stockProfit(arr) {
-    let maxProfit = -Infinity;
+    let maxStockPrice = -Infinity;
 
-    return arr.reduceRight((sum, dayProfit) => {
-        if (maxProfit < dayProfit) maxProfit = dayProfit;
-        return sum + maxProfit - dayProfit;
+    return arr.reduceRight((sum, dayStockPrice) => {
+        if (maxStockPrice < dayStockPrice) maxStockPrice = dayStockPrice;
+        return sum + maxStockPrice - dayStockPrice;
     }, 0);
 }
 
