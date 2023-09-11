@@ -5,28 +5,24 @@
 // ["", 0]
 
 function longestRepetition(str) {
-    if (str === "") return ['', 0];
+    if (str === "") return ['', 0]
 
-    let maxChar = '';
-    let maxLength = 0;
-    let currentChar = '';
-    let currentLength = 0;
+    let maxChar = ''
+    let maxLength = 0
+    let currentChar = ''
+    let currentLength = 0
 
     for (let index = 0; index < str.length; index++) {
-        if (str[index] === currentChar) {
-            currentLength++;
-        } else {
-            currentChar = str[index];
-            currentLength = 1;
-        }
+        currentLength = (str[index] === currentChar) ? currentLength + 1 : 1
+        currentChar = (str[index] === currentChar) ? currentChar : str[index]
 
         if (currentLength > maxLength) {
-            maxLength = currentLength;
-            maxChar = currentChar;
+            maxLength = currentLength
+            maxChar = currentChar
         }
     }
 
-    return [maxChar, maxLength];
+    return [maxChar, maxLength]
 }
 
-module.exports = {longestRepetition};
+module.exports = {longestRepetition}
