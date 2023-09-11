@@ -14,7 +14,7 @@
 function calculateStringRotation(str1, str2) {
     const concatenatedStr = str2 + str2;
 
-    if(str1.length === 0 || str2.length === 0 || str2.length !== str1.length) return -1;
+    if (str1.length === 0 || str2.length === 0 || str2.length !== str1.length) return -1;
 
     const index = concatenatedStr.indexOf(str1);
 
