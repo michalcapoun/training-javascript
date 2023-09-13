@@ -13,7 +13,6 @@ function comp(arrA, arrB) {
     let arrASquared = arrA.map(x => x * x).sort((x, y) => x - y);
     let arrBSorted = arrB.slice().sort((x, y) => x - y);
 
-
     for (let index = 0; index < arrA.length; index++) {
         if (arrASquared[index] !== arrBSorted[index]) return false;
     }
